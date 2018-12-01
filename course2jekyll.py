@@ -24,11 +24,16 @@ and run:
 
 `python course2jekyll.py` from the course root folder.
 
+This requires python-slugify: https://github.com/un33k/python-slugify
+
 """
 
 import pathlib
 import shutil
 import os
+import re
+
+from slugify import slugify
 
 COURSE_FOLDER = ''
 DEST_FOLDER = '_staticsite'
@@ -38,15 +43,70 @@ PAGE_HEADER = '---\nlayout: default\n---\n'
 def get_course_path():
     return pathlib.Path.cwd() / COURSE_FOLDER
 
+
 def get_dest_path():
     return pathlib.Path.cwd() / DEST_FOLDER
 
-def fix_foldername(foldername):
-    """
-    `10 Getaltheorie` -> `getaltheorie`
+
+def fix_markdown(md):
+    """ translate (fix) markdown texts:
+
+    apply filters:
+    - change links: ADD {{site.baseurl}} (to fix /root/relative/links)
+    - change ![embed] videoplayer to html iframe
 
     """
-    return foldername.split()[1].lower()
+
+    def add_base_url(match):
+        """
+        [foo](/link) --> [foo]({{site.baseurl}}/link)
+
+        This is REALLY bad regexing..
+        """
+        match = match.group()
+
+        # skip ![ ](picture.png) type images
+        if match[0] == '!':
+            return match
+
+        # skip "external" links. They start with http[s]
+        url = re.search(r'\((.*?)\)', match).group(1)
+        if url[:4].lower() == 'http':
+            return match
+
+        return re.sub(r'\]\(', ']({{site.baseurl}}', match)
+
+    def embedvideo(match):
+        """ substitude ![embed](videolink) with iframe"""
+
+        PART1 = '<figure class="video_container">\n  <iframe src="'
+        PART2 = '" frameborder="0" allowfullscreen="true"></iframe>\n</figure>'
+
+        url = re.search(r'\((.*?)\)', match.group()).group(1)
+        return PART1 + url + PART2
+
+    filters = {
+        r'\!\[embed](.*?)\)': embedvideo,
+        r'.\[([^\[]+)\]\(([^\)]+)\)': add_base_url
+        }
+
+    for filter in filters:
+        md = re.sub(filter, filters[filter], md)
+
+    return md
+
+
+def slugify_foldername(foldername):
+    """
+    slugify the foldername and remove leading numbers
+
+    `10 Installatie computer` -> `installatie-computer`
+
+    """
+    slug = slugify(foldername)
+    firstbreak = slug.find('-')
+    return slug[firstbreak+1:]
+
 
 def process_course(course_path, dest_path):
     """
@@ -60,7 +120,7 @@ def process_course(course_path, dest_path):
             create_root_index(path, dest_path)
             continue
         if path.is_dir() and str(path.name)[0].isdigit():
-            name = fix_foldername(path.name)
+            name = slugify_foldername(path.name)
             page_dest_path = dest_path / name
             print(f'Folder {path} -> {page_dest_path}')
             if not page_dest_path.exists():
@@ -77,12 +137,12 @@ def process_pages(page_path, dest_path):
     """
     for path in sorted(page_path.glob('*')):
         if path.is_dir():
-            name = fix_foldername(path.name) + '.md'
+            name = slugify_foldername(path.name) + '.md'
             print(f' * creating markdown page {name}')
-            process_subpages(path, dest_path, md_file = name)
+            process_subpages(path, dest_path, md_file=name)
 
 
-def process_subpages(subpage_path, destination_path, md_file = "index.md"):
+def process_subpages(subpage_path, destination_path, md_file="index.md"):
     """
     Create a single markdown page from a collection of sub-subfolders.
 
@@ -95,10 +155,10 @@ def process_subpages(subpage_path, destination_path, md_file = "index.md"):
         if path.suffix == '.md':
             markdown += open(path, 'r').read()
         elif not path.is_dir():
-            #print(f'copy {path} to {destination_path}')
+            # print(f'copy {path} to {destination_path}')
             shutil.copy(path, destination_path)
     with open(destination_path / md_file, "w") as f:
-        f.write(PAGE_HEADER + markdown)
+        f.write(PAGE_HEADER + fix_markdown(markdown))
 
 
 def create_root_index(path, dest_path):
