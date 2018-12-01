@@ -1,0 +1,18 @@
+language: python
+python:
+  - "3.6"
+
+  sudo: false
+
+before_deploy:
+  - mkdir _build
+  - mkdir _build/pdf
+  - mkdir _build/notebooks
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: _staticsite
+  on:
+    branch: master
