@@ -1,11 +1,4 @@
-<style>
-div.embed
-{
-	margin:0 ! important;
-}
-</style>
-
-# Integreren
+# Module 2: numeriek integreren
 
 <div style="width: 40%; float:right; margin-left: 2em;">
 ![embed](https://player.vimeo.com/video/235030111)
@@ -19,26 +12,34 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 1. Leer over [functies](/python/functies) in Python
 
-3. <span class="label label-primary">Opdracht</span> Bepaal de [nulpunten](/integreren/nulpunten) van een polynoom
+3. <span class="badge badge-primary">Opdracht</span> Bepaal de [nulpunten](/integreren/nulpunten) van een polynoom
 
-#### Dag 2: random
+#### Dag 2: Riemann
 
-1. Leer over het gebruik van  [random getallen](/python/random).
+1. Leer over de [Riemannsom](/technieken/riemannsom)
 
-3. <span class="label label-primary">Opdracht</span> Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant
+1. <span class="badge badge-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann).
 
-3. <span class="label label-primary">Opdracht</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie
+#### Dag 3: random
 
-#### Dag 3: Monte Carlo
+1. Leer over het gebruik van  [random getallen](/technieken/random).
 
-2. <span class="label label-primary">Opdracht</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
+2. <span class="badge badge-primary">Opdracht</span> [Random fact](/integreren/randomwiskunde).
 
-#### Dag 4: Riemann
+3. <span class="badge badge-primary">Opdracht</span> Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant
 
-1. <span class="label label-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann).
+3. <span class="badge badge-primary">Opdracht</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie
+
+#### Dag 4: Monte Carlo
+
+1. Leer over de [Monte-Carlotechniek](/technieken/monte-carlo)
+
+2. <span class="badge badge-primary">Opdracht:</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
+
+3. <span class="badge badge-primary">Opdracht:</span> Bereken de oppervlakte van een vreemde vorm: [het Twitter-ei](/integreren/ei)
 
 #### Evaluatie
 
-Ben je klaar met deze module? Help ons dan om deze te verbeteren: vul de [evaluatie](https://goo.gl/forms/X0HNmhNQbhAk81442){:target="_blank"} in.
+Je bent klaar met deze module! Vul alsjeblieft de [evaluatie](https://goo.gl/forms/X0HNmhNQbhAk81442){:target="_blank"} in.
 
 
