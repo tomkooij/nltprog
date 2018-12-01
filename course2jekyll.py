@@ -32,7 +32,7 @@ import os
 
 COURSE_FOLDER = ''
 DEST_FOLDER = '_staticsite'
-PAGE_HEADER = '---\nlayout: page\n---\n'
+PAGE_HEADER = '---\nlayout: default\n---\n'
 
 
 def get_course_path():

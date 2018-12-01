@@ -2,12 +2,13 @@ language: python
 python:
   - "3.6"
 
-  sudo: false
+sudo: false
+
+script:
+  - python --version
 
 before_deploy:
-  - mkdir _build
-  - mkdir _build/pdf
-  - mkdir _build/notebooks
+  - python course2jekyll.py 
 
 deploy:
   provider: pages
