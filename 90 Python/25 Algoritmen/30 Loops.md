@@ -17,6 +17,16 @@ Verder zie je dat we net als bij `if` weer kunnen inspringen om duidelijk te mak
 
 ![embed](https://vimeo.com/album/5380755/embed)
 
+In het voorbeeld wordt de volgende structuur uitgelegd. Zorg dat je dit *helemaal* snapt:
+
+    som = 0
+    for getal in range(1, 10):
+        som += getal
+        print('het getal is nu: ', getal)
+        print('de som is nu: ', som)
+
+    print('De eind som is: ', som)
+
 ## Stapgrootte van een loop
 
 Je kunt met `range` ook de stapgrootte opgeven. `for` telt dan zoals voorheen van begin tot einde, en neemt niet stappen van 1, maar van de grootte die jij hebt ingesteld. Dit ziet er zo uit:
@@ -30,14 +40,14 @@ Elke stap in de `for`-loop zal dan steeds 10 verder zijn dan de vorige. Denk eve
 
 Afhankelijk van de toepassing kies je een soort loop, zoals je in de filmpjes hierboven hebt gezien. In feite zijn `for` en `while` ook uitwisselbaar. Deze `for`-loop:
 
-    for i in range(100):
-        print("hi")
+    for i in range(10):
+        print("hi", i)
 
 is gelijk aan de volgende `while`-loop:
 
     i = 0
-    while i < 100:
-        print("hi")
+    while i < 10:
+        print("hi", i)
         i = i + 1
 
 De `for`-loop is duidelijk wat compacter en zo sneller leesbaar. Dat is dus ook de loop die het vaakst gebruikt wordt. Maar toepassingen zoals gebruikersinvoer kun je eigenlijk alleen maar met een `while`-loop schrijven, dus deze heeft ook z'n nut.

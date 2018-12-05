@@ -4,6 +4,16 @@ In de voorgaande programma's schreven we scriptjes die regel voor regel van bove
 
 ![embed](https://player.vimeo.com/video/287244672)
 
+In dit filmpje wordt de volgende structuur uitgelegd, zorg dat je deze *helemaal* snapt:
+
+    leeftijd = input("Wat is je leeftijd?")
+    leeftijd = int(leeftijd)
+
+    if leeftijd < 18 or leeftijd >= 65:
+        print("Je krijgt korting!")
+    else:
+        print("Je krijgt helaas geen korting")
+
 ## Details
 
 Een `if`-statement in Python kent de volgende structuur:
