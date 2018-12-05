@@ -1,8 +1,16 @@
+# Python in Jupyter notebook Installeren
+
+Python is een omgeving die je kunt installeren op je eigen computer, óf gebruiken via een online-dienst. We geven hier instructies voor beide opties:
+
+- [Installeren op je eigen computer](/naslag/installatie-jupyter) is natuurlijk erg prettig omdat je dan op elk moment aan de slag kan, ook later, als de cursus klaar is.
+
+Lukt het niet? Vraag je docent!
+
 # Python installeren
 
 Python is een omgeving die je kunt installeren op je eigen computer, óf gebruiken via een online-dienst. We geven hier instructies voor beide opties:
 
-- [Installeren op je eigen computer](/naslag/installatie-computer) is natuurlijk erg prettig omdat je dan op elk moment aan de slag kan, ook later, als de cursus klaar is. Het is ook handig voor het maken van 
+- [Installeren op je eigen computer](/naslag/installatie-computer) is natuurlijk erg prettig omdat je dan op elk moment aan de slag kan, ook later, als de cursus klaar is.
 
 - [Gebruiken van een online-omgeving](/naslag/installatie-online) is wel een stukje makkelijker. Zeker als je problemen tegenkomt bij de installatie op je eigen computer, kun je hiermee in ieder geval snel aan de slag. De omgeving die we je aanraden is in principe ook blijvend gratis te gebruiken.
 
