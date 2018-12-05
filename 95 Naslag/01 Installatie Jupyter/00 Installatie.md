@@ -1,4 +1,4 @@
-# Python op je eigen computer
+# Python in Jupyter op je eigen computer
 
 ## Om te beginnen
 
@@ -6,8 +6,7 @@ Om te kunnen programmeren op je eigen computer heb je twee verschillende program
 
 1. **Anaconda**, een versie van Python die makkelijk te installeren is. Er zitten ook een boel *packages* bij, waarin extra functionaliteit zit voor grafieken, statistiek en nog allerlei andere dingen.
 
-2. **Jupyter notebook**, een *omgeving* om code in te schrijven. De Jupyter omgeving wordt standaard geinstalleerd als je **anacond** installeert.
-Zit je vast? Vraag je assistent!
+2. **Jupyter notebook**, een *omgeving* om code in te schrijven. De Jupyter omgeving wordt standaard geinstalleerd als je **anaconda** installeert.
 
 ### Stap 1: Anaconda
 
@@ -41,9 +40,10 @@ Nu je jupyter notebook kunt opstarten, kunnen we gaan kijken of alles werkt. Vol
 
 ### Terminal
 
-In Jupyter kun je een terminal openen door
+In Jupyter kun je een terminal openen door rechts-boven het "new" menu te
+openen en daarin "Terminal" te kiezen: 
 
-[schermfilmpje start terminal]()
+![](terminal.apng)
 
 ### Installeer `checkpy`
 
