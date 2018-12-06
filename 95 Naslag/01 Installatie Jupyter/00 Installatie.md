@@ -41,9 +41,9 @@ Nu je jupyter notebook kunt opstarten, kunnen we gaan kijken of alles werkt. Vol
 ### Terminal
 
 In Jupyter kun je een terminal openen door rechts-boven het "new" menu te
-openen en daarin "Terminal" te kiezen: 
+openen en daarin "Terminal" te kiezen:
 
-![](terminal.apng)
+![](terminal.gif)
 
 ### Installeer `checkpy`
 
