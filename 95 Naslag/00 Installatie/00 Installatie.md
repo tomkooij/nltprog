@@ -2,7 +2,7 @@
 
 Python is een omgeving die je kunt installeren op je eigen computer, óf gebruiken via een online-dienst. We geven hier instructies voor beide opties:
 
-- [Installeren op je eigen computer](/naslag/installatie-jupyter) is natuurlijk erg prettig omdat je dan op elk moment aan de slag kan, ook later, als de cursus klaar is.
+- [Jupyter installeren op je eigen computer](/naslag/installatie-jupyter) is natuurlijk erg prettig omdat je dan op elk moment aan de slag kan, ook later, als de cursus klaar is.
 
 Lukt het niet? Vraag je docent!
 
