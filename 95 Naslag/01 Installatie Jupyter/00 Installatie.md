@@ -61,6 +61,6 @@ Behalve checkpy hebben we ook tests nodig om de opdrachten die jij zometeen gaat
 
 Maak een notebook 'hello' volgens het instructiefilmpje hierboven en test dit notebook met de CheckPy knop:
 
-[animatie]()
+![](checkpy-knop.gif)
 
 Kleurt alles groen en zie je alleen maar vrolijke smileys? Dan zit je goed, en heb je aan onze eisen voor de opdracht voldaan! Mocht er iets rood kleuren, geen paniek! Kijk goed na of je precies hebt gedaan wat er is gevraagd, en mail gerust als je klem zit.
