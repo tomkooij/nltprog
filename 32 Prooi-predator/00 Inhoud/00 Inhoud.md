@@ -18,17 +18,17 @@ Kijk om te beginnen eens naar het filmpje hiernaast. [Iko Koevoets](http://www.u
 
 #### Dag 2: Konijnen in een bos
 
-1. <span class="label label-primary">Opdracht</span> Maak een animatie van 25 [konijnen](/prooipredator/konijnen) in een bos
+1. <span class="label label-primary">Opdracht</span> Maak een animatie van 25 [konijnen](/prooi-predator/konijnen) in een bos
 
 #### Dag 3: Voeg (hongerige) vossen in het bos
 
-1. <span class="label label-primary">Opdracht</span> Voeg (vegetarische) [vossen](/prooipredator/vossen) toe in de simulatie
+1. <span class="label label-primary">Opdracht</span> Voeg (vegetarische) [vossen](/prooi-predator/vossen) toe in de simulatie
 
-2. <span class="label label-primary">Opdracht</span> De vossen krijgen toch zin in vlees. Pech voor de  [konijnen](/prooipredator/vossenetenkonijnen)
+2. <span class="label label-primary">Opdracht</span> De vossen krijgen toch zin in vlees. Pech voor de  [konijnen](/prooi-predator/vossenetenkonijnen)
 
 #### Dag 4: De konijnen planten zich voort - wie wint er
 
-1. <span class="label label-primary">Opdracht</span> Laat de konijnen zich ook voortplanten en zoek uit of de konijnen of de vossen [winnen](/prooipredator/konijnenreproduceren)
+1. <span class="label label-primary">Opdracht</span> Laat de konijnen zich ook voortplanten en zoek uit of de konijnen of de vossen [winnen](/prooi-predator/konijnenreproduceren)
 
 #### Evaluatie
 
