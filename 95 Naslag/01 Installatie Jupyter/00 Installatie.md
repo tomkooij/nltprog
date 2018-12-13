@@ -40,8 +40,7 @@ Nu je jupyter notebook kunt opstarten, kunnen we gaan kijken of alles werkt. Vol
 
 ### Terminal
 
-In Jupyter kun je een terminal openen door rechts-boven het "new" menu te
-openen en daarin "Terminal" te kiezen:
+In Jupyter kun je een terminal openen door in het Home scherm rechts-boven het "new" menu te openen en daarin "Terminal" te kiezen:
 
 ![](terminal.gif)
 
