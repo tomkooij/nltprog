@@ -12,14 +12,14 @@ De modules zijn steeds opgedeeld in vier blokken. Hieronder kun je direct aan de
 Vind je het moeilijk om "in het diepe te duiken" en wil je liever (een tijdje) stap-voor-stap met Python beginnen? Begin dan met [deze online python cursus](https://cscircles.cemc.uwaterloo.ca/nl/).
 
 #### Module 1
-kies uit:
 
- - *optie*: piramides tekenen en beklimmen met behulp van [algoritmen](/algoritmen/inhoud)
- - *optie*: duik in de wereld van [getaltheorie](/getaltheorie/inhoud)
+ - Piramides tekenen en beklimmen met behulp van [algoritmen](/algoritmen/inhoud)
 
 #### Module 2
 
- - bepaal de [integraal](/integreren/inhoud) van ingewikkelde functies
+ - *optie*: bepaal de [integraal](/integreren/inhoud) van ingewikkelde functies
+ - *optie*: duik in de wereld van [getaltheorie](/getaltheorie/inhoud)
+
 
 #### Module 3
 kies uit:

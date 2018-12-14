@@ -9,17 +9,9 @@ met de computer. Met de hand is het nagaan van de theorie vaak monnikenwerk, en 
 
 Maar waarom programmeren? Kijk eens naar het filmpje hiernaast. [Mirjam Leunissen](http://www.dutchdatadesign.nl) maakt datavisualisaties voor onder andere de [Volkskrant](https://www.volkskrant.nl/kijkverder/2015/klimaatkennis/). Ze vertelt kort over haar ervaring met programmeren en visualisaties maken.
 
-##### Dag 1: aan de slag
-
-1. [Installeer](/naslag/installatie) Python
-
-2. Oefen vervolgens goed met de [basiselementen](/python/basiselementen) van Python
-
-3. <span class="badge badge-primary">Opdracht</span> Gebruik de computer als  [rekenwonder](/getaltheorie/rekenwonder)
-
 ##### Dag 2: priemgetallen
 
-1. Leer meer over [algoritmen](/python/algoritmen)
+1. Kijk nog eens naar [algoritmen](/python/algoritmen)
 
 3. <span class="badge badge-primary">Opdracht</span> Ga op zoek naar [priemgetallen](/getaltheorie/priemgetallen)
 
