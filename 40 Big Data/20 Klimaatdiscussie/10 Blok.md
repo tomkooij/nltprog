@@ -6,8 +6,8 @@ Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren die  
 
 Bestanden: 
 
-- <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMax.txt>
-- <http://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMin.txt>
+- <https://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMaxSUMMER2019.txt>
+- <https://www.nikhef.nl/~ivov/Python/KlimaatData/DeBiltTempMinSUMMER2019.txt>
 
 Download de bestanden, open ze en lees bovenin hoe de data gecodeerd is. We zien dat de maximum(minimum)-temperatuur op 1 januari 1901 -3.1(-6.8) graden Celsius was.
 
